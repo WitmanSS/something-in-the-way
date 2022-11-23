@@ -1,0 +1,26 @@
+.block{
+    background-color: aqua ;
+    color: brown;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
